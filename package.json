@@ -1,7 +1,7 @@
 {
   "name": "tesla-inventory",
   "description": "Retrieve real-time data from Tesla Inventory.",
-  "homepage": "https://github.com/Kikobeats/tesla-inventory",
+  "homepage": "https://github.com/mustafaerbay/tesla_inventory",
   "version": "3.5.299",
   "main": "src/index.js",
   "exports": {
@@ -49,13 +49,22 @@
     "name": "Kiko Beats",
     "url": "https://kikobeats.com"
   },
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Kyle Mercier",
+      "email": "ferociouskyle@gmail.com"
+    },
+    {
+      "name": "quinnjn",
+      "email": "quinn@neumiiller.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/teslahunt/inventory.git"
+    "url": "git+https://github.com/mustafaerbay/tesla_inventory.git"
   },
   "bugs": {
-    "url": "https://github.com/teslahunt/inventory/issues"
+    "url": "https://github.com/mustafaerbay/tesla_inventory/issues"
   },
   "keywords": [
     "cpo",
@@ -67,7 +76,8 @@
   ],
   "dependencies": {
     "@kikobeats/time-span": "~1.0.2",
-    "p-retry": "4"
+    "p-retry": "4",
+    "tesla-inventory": "~3.5.299"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
