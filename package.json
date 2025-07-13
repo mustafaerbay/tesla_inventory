@@ -2,7 +2,7 @@
   "name": "tesla-inventory",
   "description": "Retrieve real-time data from Tesla Inventory.",
   "homepage": "https://github.com/mustafaerbay/tesla_inventory",
-  "version": "3.5.299",
+  "version": "4.0.0",
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",

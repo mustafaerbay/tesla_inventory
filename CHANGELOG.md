@@ -2,6 +2,70 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 4.0.0 (2025-07-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* country is now alpha-3 code
+
+### Features
+
+* add Australia inventory ([#21](https://github.com/mustafaerbay/tesla_inventory/issues/21)) ([ac98094](https://github.com/mustafaerbay/tesla_inventory/commit/ac980947342e8549587ccfafa9bd6951eb99f355))
+* add Canada inventories ([368538e](https://github.com/mustafaerbay/tesla_inventory/commit/368538e5b7c289f98a8bf93ef2a0c8491bee129d))
+* add Hungary and Romania inventories ([f465b78](https://github.com/mustafaerbay/tesla_inventory/commit/f465b78c7ed9c5cbb574e4dafdd8b7931fec942a))
+* add Mexico & Puerto Rico for North America ([b33423b](https://github.com/mustafaerbay/tesla_inventory/commit/b33423baa02921efc12959dcf0369b5e6b53aae9))
+* add missing inventories ([#26](https://github.com/mustafaerbay/tesla_inventory/issues/26)) ([f70be04](https://github.com/mustafaerbay/tesla_inventory/commit/f70be04f46a5a08fce5d0ba0545af096313a1569))
+* add onFailedAttempt ([bfe7e9d](https://github.com/mustafaerbay/tesla_inventory/commit/bfe7e9d01ef326061a9617dfadbf03b38c7a6649))
+* add pagination ([18e373a](https://github.com/mustafaerbay/tesla_inventory/commit/18e373a4b173aa5f75b05d22906492d744e02b8f))
+* add prices by code ([bc8ac32](https://github.com/mustafaerbay/tesla_inventory/commit/bc8ac32600750a84a9c5118cc6dfa7a89b430fc0))
+* fetcher decorator ([#22](https://github.com/mustafaerbay/tesla_inventory/issues/22)) ([1dc1207](https://github.com/mustafaerbay/tesla_inventory/commit/1dc1207dcf4f57f34b84f01c2f5cb307a83ed599))
+* normalize inventories ([#12](https://github.com/mustafaerbay/tesla_inventory/issues/12)) ([b88f0d5](https://github.com/mustafaerbay/tesla_inventory/commit/b88f0d5fa1e170d832151e576cb1604692dcaa0c))
+* paginate until no results ([#25](https://github.com/mustafaerbay/tesla_inventory/issues/25)) ([63dac81](https://github.com/mustafaerbay/tesla_inventory/commit/63dac81a4bdd7ba5e0d286b1c0b280d5d52b80f4))
+* remove info.json ([e262737](https://github.com/mustafaerbay/tesla_inventory/commit/e2627371ecc16db32abf4919c51769f1d95f53ba))
+* rename usa into us ([5c15e40](https://github.com/mustafaerbay/tesla_inventory/commit/5c15e40e1463a267fa6c9db33fbef907a10128e6))
+
+
+### Bug Fixes
+
+* add error handler ([83b1d24](https://github.com/mustafaerbay/tesla_inventory/commit/83b1d24503b16942bd8877113708e012a05dfb45))
+* add missing file ([2e446c5](https://github.com/mustafaerbay/tesla_inventory/commit/2e446c59c614c464ad72752872b32002faf1290b))
+* add missing file ([7b21fcd](https://github.com/mustafaerbay/tesla_inventory/commit/7b21fcd06d8031a0d950cc442f630121753d6d84))
+* add missing got dependency ([330592f](https://github.com/mustafaerbay/tesla_inventory/commit/330592f3753abd86a99be0b88ab2a7d75a7d18e4)), closes [#9](https://github.com/mustafaerbay/tesla_inventory/issues/9)
+* add thailand ([0ac2413](https://github.com/mustafaerbay/tesla_inventory/commit/0ac241396b54969a3ce5a0e06b4fb88cbfd2e842))
+* **china:** use v4 endpoint ([#31](https://github.com/mustafaerbay/tesla_inventory/issues/31)) ([5c0cbc3](https://github.com/mustafaerbay/tesla_inventory/commit/5c0cbc38ea7c8a56d81efdf6df5c44ff90c086ff))
+* **ci:** omit failed inventories ([7621f1b](https://github.com/mustafaerbay/tesla_inventory/commit/7621f1b5d7aa2f192bb88c1dedf1df29557320fa))
+* **ci:** script name ([add1198](https://github.com/mustafaerbay/tesla_inventory/commit/add1198160f06e5676214e6f8b1e4d277e8104c0))
+* codes generation ([bf09908](https://github.com/mustafaerbay/tesla_inventory/commit/bf09908b6fa0550199132f6ca0b8675b4d144811))
+* codes html markup ([674262b](https://github.com/mustafaerbay/tesla_inventory/commit/674262b2ea222c519ee36b5eb70408194ce81b08))
+* **codes:** read markdown rather than html ([a3aeed9](https://github.com/mustafaerbay/tesla_inventory/commit/a3aeed95e0bbc5ae370c0b47de02ef85ccc1eeed))
+* ensure all inventories are reachable ([fa480ae](https://github.com/mustafaerbay/tesla_inventory/commit/fa480aea4503bcd9371ba2ac67c89dd38cb8f29a))
+* ensure results are consistent ([#14](https://github.com/mustafaerbay/tesla_inventory/issues/14)) ([ca7661c](https://github.com/mustafaerbay/tesla_inventory/commit/ca7661c5888a91c3c0f434c1f9a9853f01b55278))
+* ensure results are consistents ([9ff600b](https://github.com/mustafaerbay/tesla_inventory/commit/9ff600b6b736af1cb21e801837b2e64da4d08a06))
+* ensure results are filter by model ([#16](https://github.com/mustafaerbay/tesla_inventory/issues/16)) ([c884161](https://github.com/mustafaerbay/tesla_inventory/commit/c884161bcee803ff06f048f701ab3f03d5543a4a))
+* ensure sub-dependency is not ESM ([b3606ac](https://github.com/mustafaerbay/tesla_inventory/commit/b3606ac59c056d0ae7c99b16138469d1b9b8833d))
+* file reference ([bac948c](https://github.com/mustafaerbay/tesla_inventory/commit/bac948c750bdda6b26d219a11bab4454c330784a))
+* infinite loop ([98409cf](https://github.com/mustafaerbay/tesla_inventory/commit/98409cf4c2ba3ccd081e07c62fbf94bea50e05e4))
+* non enumerable euro properties ([451a53e](https://github.com/mustafaerbay/tesla_inventory/commit/451a53eeaea13016c2076f8159818d7c7a490b78))
+* normalize model ([3696fe5](https://github.com/mustafaerbay/tesla_inventory/commit/3696fe5a77dd86b49995c8cb7e9d0b2d9a274d38))
+* offset calculation ([889d935](https://github.com/mustafaerbay/tesla_inventory/commit/889d935e39d168823916be6c907e4a7e597ee946))
+* paginate fix value ([#30](https://github.com/mustafaerbay/tesla_inventory/issues/30)) ([12253ea](https://github.com/mustafaerbay/tesla_inventory/commit/12253ea6fbd1fcdab87f53302e933c0b160995e0))
+* paginate until get all the results ([#17](https://github.com/mustafaerbay/tesla_inventory/issues/17)) ([5b22faa](https://github.com/mustafaerbay/tesla_inventory/commit/5b22faadb8cc7bb5fa71d559199754edfe1d4ff8))
+* pagination ([#34](https://github.com/mustafaerbay/tesla_inventory/issues/34)) ([736b388](https://github.com/mustafaerbay/tesla_inventory/commit/736b38860ceaa9bc30535bb5d58ca8f107f3d984))
+* pass right parameters ([#18](https://github.com/mustafaerbay/tesla_inventory/issues/18)) ([e8e8b2d](https://github.com/mustafaerbay/tesla_inventory/commit/e8e8b2d8ce9a6f0764174bff59bbbf48104ea3ae))
+* publish prices folder ([5ad4be5](https://github.com/mustafaerbay/tesla_inventory/commit/5ad4be57988c2d19ff7629ee4c76a3bbad7e6a28))
+* remove no euro countries ([614c663](https://github.com/mustafaerbay/tesla_inventory/commit/614c6632bb6a270a25c81bd501887e3af88dadc5))
+* remove offset ([cac9b25](https://github.com/mustafaerbay/tesla_inventory/commit/cac9b250f6375a8ce133e23e08be98bdb871c6a6))
+* remove space ([a7263d8](https://github.com/mustafaerbay/tesla_inventory/commit/a7263d8f3ecc9678d913452a28f3f45a9b2b4541))
+* retrieve all the results ([4aee35d](https://github.com/mustafaerbay/tesla_inventory/commit/4aee35d172d28228f4f15103d531972f191af9ee))
+* script ([606bb63](https://github.com/mustafaerbay/tesla_inventory/commit/606bb63539695ee9518d35eee1d21fa6b0728570))
+* script ([9446b8c](https://github.com/mustafaerbay/tesla_inventory/commit/9446b8c109eb13ec1492a715611abc93d84bd806))
+* setup retries ([1707bf0](https://github.com/mustafaerbay/tesla_inventory/commit/1707bf055a5717142d1ba70e86febd067d59d1ca))
+* space ([4b247ef](https://github.com/mustafaerbay/tesla_inventory/commit/4b247ef3c9cc6c64232db7e3f3a8bdfafafcdfee))
+* tesla.cn ([#29](https://github.com/mustafaerbay/tesla_inventory/issues/29)) ([2838d8d](https://github.com/mustafaerbay/tesla_inventory/commit/2838d8dc6d245c06a99ff20d629ffbe38763856d))
+* undo ([5349248](https://github.com/mustafaerbay/tesla_inventory/commit/5349248a73e73236829992a6bc2be5cc63bdb1b0))
+* update codes script ([d847f3d](https://github.com/mustafaerbay/tesla_inventory/commit/d847f3dbaa4ddcf343d03934c8d21cbeb76e9658))
+
 ### 3.5.299 (2025-07-11)
 
 ### 3.5.298 (2025-07-01)
